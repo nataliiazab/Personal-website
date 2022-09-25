@@ -3,7 +3,7 @@ var websites;
 
 websites = ['LinkedIn', 'Netlify', 'Facebook'];
 websites.forEach((websites) => {
-  let element_list = document.getElementById('list');
+  let element_list1 = document.getElementById('list1');
   let new_li = document.createElement('li');
   let new_a = document.createElement('a');
   if (websites == 'LinkedIn') {
@@ -21,5 +21,5 @@ websites.forEach((websites) => {
 
   new_li.appendChild(new_a);
 
-  element_list.appendChild(new_li);
+  element_list1.appendChild(new_li);
 });
