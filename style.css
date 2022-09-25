@@ -1,0 +1,40 @@
+html,
+.header {background: #fcde67;}
+
+footer {background: #5bccf6;
+margin-bottom: 0;
+font-weight: bold;
+text-align: center}
+
+html,
+.body {margin: 0;
+  height: 100%;
+text-align:center;
+ display: block;}
+
+h1, h2, h3 {font-family: sans-serif;
+color: #5bccf6;}
+
+h1 {font-size: 2em;
+  text-transform: uppercase;
+text-align:center}
+
+
+h2 {font-size: 1.5em;}
+
+.thin-blue-border {border-color: #5bccf6;
+  border-width: 10px;
+    border-style: solid;
+  border-radius: 50%;}
+
+ul{display:inline}
+
+#links {background: #5bccf6;}
+   ===================
+*/
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
