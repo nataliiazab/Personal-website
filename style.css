@@ -38,9 +38,10 @@ h2 {font-size: 1.5em;}
   border: 4px solid #5bccf6;
 }
 
-.general {padding: 12px 50px;
+.genreal {
+  padding: 12px 50px;
   background: #5bccf6;
-margin: 30px;
+  margin: 30px;
 }
 
 
