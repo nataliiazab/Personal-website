@@ -12,6 +12,10 @@ html,
 text-align:center;
  display: block;}
 
+a:hover {
+    color: #CC0066;
+    text-decoration: underline;
+  
 h1, h2, h3 {font-family: sans-serif;
 color: #5bccf6;}
 
