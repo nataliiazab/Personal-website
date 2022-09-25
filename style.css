@@ -46,6 +46,7 @@ h2 {font-size: 1.5em;}
 }
 
 #skills {padding: 12px 600px;
+  text-align:left;
 }
 
 ul{display:inline}
