@@ -34,7 +34,7 @@ h2 {font-size: 1.5em;}
     font-family: 'Orbitron', sans-serif;
     color: black;
     font-weight: 800;
-  border-bottom: 4px solid #5bccf6;
+  border: 4px solid #5bccf6;
 }
 
 ul{display:inline}
