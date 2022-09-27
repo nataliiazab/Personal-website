@@ -1,10 +1,18 @@
-html,
-.header {background: #fcde67;}
+html {background: #FAF0DC;
+  font-family: Apercu Condensed Pro,Sans-Serif;}
 
-footer {background: #5bccf6;
+footer {background: #0B4141;
 margin-bottom: 0;
+margin-top: 20px;
 font-weight: bold;
-text-align: center}
+text-align: center;
+box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+color: #FAF0DC;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 600px;
+padding-right: 500px;}
+
 
 html,
 .body {margin: 0;
@@ -13,36 +21,45 @@ text-align:center;
  display: block;}
 
   
-h1, h2, h3 {font-family: sans-serif;
-color: #5bccf6;
-text-shadow: 0px 0px 2px black;}
+h2, h3 {font-family: Apercu Condensed Pro,Sans-Serif;;
+color: #FF6864;
+text-shadow: 0px 0px 2px white;
+font-weight: bold;}
 
 h1 {font-size: 2em;
   text-transform: uppercase;
-text-align:center}
+text-align:center;
+color: #0B4141;}
 
 
 h2 {font-size: 1.5em;}
 
-.thin-blue-border {border-color: #5bccf6;
-  border-width: 10px;
+.thin-blue-border {border-color: #FF6864;
+  border-width: 4px;
     border-style: solid;
   border-radius: 50%;}
 
 .btn {
     padding: 12px 12px;
   margin: 15px;
-    background: #fcde67;
+    background: #FF6864;
     font-family: 'Orbitron', sans-serif;
     color: black;
     font-weight: 800;
-  border: 4px solid #5bccf6;
+  border: 2px solid #0B4141;
+  border-radius: 15px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    justify-content: space-between;
 }
 
 .genreal {
   padding: 12px 400px;
-  background: #5bccf6;
+  background: #0B4141;
   margin: 30px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  color: white;
 }
 
 #skills {padding: 12px 600px;
@@ -51,10 +68,36 @@ h2 {font-size: 1.5em;}
 
 ul{display:inline}
 
-#links {background: #5bccf6;
-padding: 20px;
-margin: 30px;}
-   ===================
+#links {padding-top: 15px;
+  padding-bottom: 15px;
+  background: #FF6864  ;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10}
+
+  h1 {padding-top: 50px;
+
+  }
+
+  #input {
+    background: #FF6864;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 500px;
+    height: 150px;
+    border:1px solid #0B4141;
+  }
+
+
+  }
 */
 
 /* don't edit this */

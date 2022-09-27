@@ -12,9 +12,9 @@
   <h1 style="color: #030e12;">Nataliia Zablotska</h1>
 
    <nav id="links" aria-label="Main Site Links."> 
-        <a href="#AboutMe">About Me</a> 
-        <a href="#Myskills">My skills</a> 
-        <a href="#Getintouch">Get in touch</a> 
+        <a class="nav" href="#AboutMe">About Me</a> 
+        <a class="nav" href="#Myskills">My skills</a> 
+        <a class="nav" href="#Getintouch">Get in touch</a> 
     
     
     </nav>
@@ -25,21 +25,22 @@
   
     <h2 id="AboutMe"> About me: </h2> 
  <div class="genreal">
-     <p>I am an entry-level Front-end developer, with more than 5 years of experience in Project Management and Administrative field. I have a master’s degree in Business Economics and Analytics from Kyiv National Economic University. 
-         <br> My hobbies are: watching  movies, cycling, cooking, reading, travelling and exploring new cultures. 
-        <br> My recently-finished Fundamentals web developer course has shaped my code evaluation and website development knowledge, so now I have the HTML, CSS, and JS skills to start my career journey as a Front-end developer.
+     <p> 👩‍💻 I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects.
+    <br> 🗺 I have 5 years of administrative and project management experience assisting international organisations in dealing with a variety of issues 
+    <br> 👩‍🎓 I hold a master’s degree in Business Economics and Analytics.
     </p>
   </div>
     
   <h2 id="Myskills">My skills:</h2>
      <div class="genreal" id="skills">
   <ul>
+    <li>CSS, HTML5, JavaScript</li>
 <li>attention to details</li>
 <li>problem-solving</li>
 <li>analytical thinking</li>
 <li>persistence and determination</li>
 <li>excellent communication skills</li>
-<li>High adaptability</li>
+<li>high adaptability</li>
     </ul>
           </div>
 
@@ -52,8 +53,14 @@ src="https://www.youtube.com/embed/RacxNskxySo">
         <h2> My favourite animals:</h2>
         <img id="img" src="https://images.unsplash.com/photo-1618826411640-d6df44dd3f7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2F0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="450px">
         
-<br><button class="btn" id="turn_right">Next</button> 
-<br> <button class="btn" id="turn_left">Previous </button>
+<button class="btn" id="turn_right">Next</button> 
+ <button class="btn" id="turn_left">Previous </button>
+    </div>
+
+    <div id="comments">
+      <p id=text>Please share your feedback on my first website⭐⭐⭐⭐⭐ </p>
+
+<button>Submit</button>
     </div>
   </body>
   </main>
@@ -63,8 +70,6 @@ src="https://www.youtube.com/embed/RacxNskxySo">
   <p id="Getintouch">
     Author: Nataliia Zablotska<br>
   <a href="mailto:nataliia.zab@gmail.com">nataliia.zab@gmail.com</a></p>
-  <p>+44 7404 939487</p>
-    
     <div>
     
 <ul id="list1"> My social media:
@@ -118,6 +123,12 @@ websites.forEach((websites) => {
 
   element_list1.appendChild(new_li);
 });
+
+let element_text = document.getElementById('text');
+let new_input = document.createElement('input');
+new_input.setAttribute("id", 'input');
+
+element_text.appendChild(new_input);
 
     </script>
 </html>
