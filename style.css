@@ -32,7 +32,8 @@ font-weight: bold;}
 h1 {font-size: 2em;
   text-transform: uppercase;
 text-align:center;
-color: #0B4141;}
+color: #0B4141;
+margin-top: 70px;}
 
 
 h2 {font-size: 1.5em;}
@@ -57,7 +58,11 @@ h2 {font-size: 1.5em;}
     justify-content: space-between;
 }
 .nav {color: #0B4141;
-border: 1px solid #0B4141;}
+border: 1px solid #0B4141;
+border-radius: 20px;
+padding: 6px 6px;
+background: #FAF0DC;}
+
 
 .genreal {
   padding: 12px 40px;
@@ -101,9 +106,17 @@ ul{display:inline}
     width: 500px;
     height: 150px;
     border:1px solid #0B4141;
+    border-radius: 20px;
   }
 
+#img {
+  border: 2px solid #0B4141;
+  border-radius: 20px;
+}
+#youtube {border: 2px solid #0B4141;
+  border-radius: 20px;
 
+}
   }
 */
 
