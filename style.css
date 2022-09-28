@@ -56,7 +56,8 @@ h2 {font-size: 1.5em;}
   margin-right: auto;
     justify-content: space-between;
 }
-.nav {color:red;}
+.nav {color: #0B4141;
+border: 1px solid #0B4141;}
 
 .genreal {
   padding: 12px 40px;
