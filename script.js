@@ -50,6 +50,3 @@ document.getElementById("turn_right").addEventListener("click", (event) => {
   links.push(links[0]);
   element_img2.setAttribute("src", links.shift());
 });
-function sayHi() {
-  alert("hi");
-}
